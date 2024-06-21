@@ -33,6 +33,7 @@ body {
 .nav {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     /* font-weight: 500; */
 }
 
@@ -114,6 +115,52 @@ body {
     background-color: #333333;
     color: white;
     font-weight: bold;
+}
+
+.vol {
+    text-align: center;
+    margin: 1vw 0;
+}
+
+.box {
+    margin: 0.5vw auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    height: 160px;
+    width: 160px;
+    border: 10px solid #ddd;
+    border-radius: 50%;
+    border-top: 10px solid #00B2FF;
+    border-left: 10px solid #00B2FF;
+}
+
+.voltxt {
+    margin: 0 auto;
+    margin-top: -12%;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.voltxt i {
+    font-size: 10px;
+    opacity: .8;
+}
+
+.voltxt p {
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.box h2 {
+    font-size: 35px;
+}
+
+.box span {
+    font-weight: 500;
 }
 
 .items {
@@ -310,6 +357,12 @@ body {
 .links2 i {
     color: #333333;
     font-size: 22px;
+    padding: 5px;
+    border-radius: 50%;
+}
+
+.pd {
+    background-color: #ddd;
     padding: 5px;
     border-radius: 50%;
 }
